@@ -1,0 +1,33 @@
+body{
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+     text-align: center;
+     color: white;
+     background-color: rgb(0, 0, 68);
+     padding: 3vw;
+}
+
+.movie-info {
+     margin: 5vw 20vw;
+}
+
+.movie{
+     display: flex;
+     justify-content: space-between;
+}
+
+.movie-img{
+     flex-basis: 40%;
+     flex-shrink: 0;
+}
+
+.movie-img img{
+     max-width: 100%;
+}
+
+.movie-text{
+     margin-left: 5%;
+}
